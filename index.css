@@ -1,0 +1,82 @@
+/* Reset geral para remover margens e paddings padrão do navegador */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo base da página: fonte, fundo e cor do texto */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2.6;
+    background-color: rgb(255, 254, 251);
+    color: rgb(31, 72, 88);
+    padding: 0;
+}
+
+
+
+/* Estilo do título principal da loja */
+.titulo{
+    margin: 20px auto 12px auto;
+    width: 80%;
+    text-align: center;
+    color: rgb(246, 247, 248);
+    background-color: rgb(23, 33, 121);
+}
+
+/* Configuração da tabela que guarda os produtos */
+.tabela{
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 2px solid rgb(142, 145, 160);
+    border-radius: 15px;
+}
+
+/* Estilo das células da tabela: espaçamento, borda e texto */
+.tabela td{
+    padding: 15px;
+    border: 2px solid rgb(207, 212, 238);
+    vertical-align: middle;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.6;
+}
+
+/* Estilo visual para a linha do mouse */
+.mouse{
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Estilo visual para a linha do teclado */
+.Perfil{
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Rodapé da página: alinha o texto à direita e define a largura */
+.rodape{
+    padding: 0;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* Estilo visual para a linha do headset */
+.headSet{
+    background-color: #fff;
+}
+
+/* Define o tamanho das imagens dentro da tabela */
+.tabela img{
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
